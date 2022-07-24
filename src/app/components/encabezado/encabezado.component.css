@@ -1,0 +1,22 @@
+h3{
+    font-style: oblique;
+    font-size:xx-large;
+    color: aquamarine;
+    margin-top: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+/* Estilo del encabezado en pantallas pequeñas*/
+@media(min-width:576){
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+    h3{
+        font-style: oblique;
+        font-size: small;
+        color: aquamarine;
+        margin-top: 10px;
+    }
+   }

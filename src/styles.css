@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+
+.header{
+    padding: 3px;
+    border: 1px;
+}
+.nav{
+    border-radius: 5px;
+}
+
+ .main-header{
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: aqua;
+}
+
+.main-header h1{
+    text-decoration-style: inherit;
+    color: crimson;
+    border-radius: 8px;
+  
+}
+.cajas{
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: blueviolet;
+}

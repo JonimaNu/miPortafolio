@@ -1,0 +1,44 @@
+.row{
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    }
+div{
+    margin-top: 5px;
+    background-color: rgb(253, 232, 239);
+    text-align: justify;  
+   }
+   .btn-edit{
+    margin-left: 75%;
+}
+h1{
+    text-shadow: 2px 2px 5px black;
+    color: crimson;
+}
+
+h4{
+    text-shadow: 2px 2px 5px aqua;
+    color: black;
+}
+#fotodeperfil{
+    height: 250px;
+    width: 150px;
+    border-radius: 25%;
+    flex-direction: row;
+    position: absolute;
+}
+
+   /* Estilo de la foto de perfil en pantallas pequeñas*/
+   @media(min-width:576){
+    #fotodeperfil{
+        width: 15%;
+        border-radius: 80%;
+        box-shadow: 3px, 3px, 3px gainsboro;
+        left: 3%;
+        top: 600px;
+    }
+    .row{
+        display: block;
+    }
+   }
